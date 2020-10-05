@@ -1,6 +1,9 @@
 %% Create line plot from data_x and data_y
-figure();
+addpath('include');
 
+set_colors;
+
+figure();
 title('Signal response');
 
 window_width = 21.0;   % 21cm is the width of a A4 paper
@@ -11,14 +14,6 @@ set(gcf, 'units','centimeters','Position',[0, 0, window_width, window_height*.5]
 data_x = 0:.1:8*pi;
 data_y1 = sin(data_x);
 data_y2 = cos(data_x);
-
-%% Set colors
-% These colors are colorblind safe and print friendly
-% Reference: https://colorbrewer2.org/
-light_green     = [166,219,160]./255;
-dark_green      = [0,136,55]./255;
-light_purple    = [194,165,207]./255;
-dark_purple     = [123,50,148]./255;
 
 %% Subplot(n_rows, n_columns, order)
 ax1 = subplot(2,1,1);
@@ -48,6 +43,10 @@ ax2 = subplot(2,1,2);
 linkaxes([ax1,ax2],'x');
 
 %% Save graph
+if ~exist('Figs', 'dir')
+   mkdir('Figs')
+end
+
 % You can specify any extension corresponding to a file format.
-saveas(gcf,'Subplot.fig');
+saveas(gcf,'Figs/SubPlot.fig');
 

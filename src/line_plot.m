@@ -1,6 +1,9 @@
 %% Create line plot from data_x and data_y
-figure();
+addpath('include');
 
+set_colors;
+
+figure();
 title('Signal response');
 
 window_width = 21.0;   % 21cm is the width of a A4 paper
@@ -13,12 +16,6 @@ data_y1 = sin(data_x);
 data_y2 = cos(data_x);
 
 %% Set colors
-% These colors are colorblind safe and print friendly
-% Reference: https://colorbrewer2.org/
-light_green     = [166,219,160]./255;
-dark_green      = [0,136,55]./255;
-light_purple    = [194,165,207]./255;
-dark_purple     = [123,50,148]./255;
 
 %% Plot
 % plot(x, y, style, ...), possible styles include:
@@ -30,17 +27,18 @@ plot(data_x, data_y2, ':', 'color', dark_purple, 'linewidth', 2);
 hold off;
 
 %% Config labels
-legend({'sin(x)', 'cos(x)'});
-
-xlabel('Time [s]');
-ylabel('Signal [V]');
-
-xlim([0 data_x(end)]);
-ylim([-1 1]);
-
-grid on;
+    legend({'sin(x)', 'cos(x)'});
+    xlabel('Time [s]');
+    ylabel('Signal [V]');
+    xlim([0 data_x(end)]);
+    ylim([-1 1]);
+    grid on;
 
 %% Save graph
+if ~exist('Figs', 'dir')
+   mkdir('Figs')
+end
+
 % You can specify any extension corresponding to a file format.
-saveas(gcf,'Plot.fig');
+saveas(gcf,'Figs/Plot.fig');
 
