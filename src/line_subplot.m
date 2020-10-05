@@ -49,5 +49,5 @@ linkaxes([ax1,ax2],'x');
 
 %% Save graph
 % You can specify any extension corresponding to a file format.
-saveas(gcf,'Image.fig');
+saveas(gcf,'Subplot.fig');
 
