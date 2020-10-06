@@ -34,11 +34,9 @@ hold off;
     ylim([-1 1]);
     grid on;
 
-%% Save graph
-if ~exist('Figs', 'dir')
-   mkdir('Figs')
+%% Save graph at folder figs
+if ~exist('figs', 'dir')
+   mkdir('figs')
 end
-
-% You can specify any extension corresponding to a file format.
-saveas(gcf,'Figs/Plot.fig');
+saveas(gcf,'figs/Plot.fig');
 

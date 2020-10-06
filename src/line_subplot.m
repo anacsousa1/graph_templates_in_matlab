@@ -42,11 +42,9 @@ ax2 = subplot(2,1,2);
 %% Link axes
 linkaxes([ax1,ax2],'x');
 
-%% Save graph
-if ~exist('Figs', 'dir')
-   mkdir('Figs')
+%% Save graph at folder figs
+if ~exist('figs', 'dir')
+   mkdir('figs')
 end
-
-% You can specify any extension corresponding to a file format.
-saveas(gcf,'Figs/SubPlot.fig');
+saveas(gcf,'figs/SubPlot.fig');
 
