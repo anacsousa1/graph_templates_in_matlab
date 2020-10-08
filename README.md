@@ -10,8 +10,8 @@ Templates for creating good looking graphs in matlab.
 
 ### Line plot
 
-1. Run `src/line_plot.m`
+1. At the `src` folder, run the script`line_plot.m`.
 
 ### Line subplot
 
-1. Run `src/line_subplot.m`
+1. At the `src` folder, run the script `line_subplot.m`.
