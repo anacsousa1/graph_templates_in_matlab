@@ -9,10 +9,11 @@ data_x = 0:.1:8*pi;
 data_y1 = sin(data_x);
 data_y2 = cos(data_x);
 
-%% Plot
+%% Plot (x, y, style)
 % '-' (line)            |	'--' (dashed)	|	'-.' (dash-dot)
 % '.' (markers only)    |    ':' (dotted)
 addpath('include'); get_colors_names;
+
 plot(data_x, data_y1, '-', 'color', dark_green, 'linewidth', 2);
 hold on;
 plot(data_x, data_y2, ':', 'color', dark_purple, 'linewidth', 2);
