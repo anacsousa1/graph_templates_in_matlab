@@ -15,3 +15,7 @@ Templates for creating good looking graphs in matlab.
 ### Line subplot
 
 1. At the `src` folder, run the script `line_subplot.m`.
+
+### Range angles
+
+1. At the `src` folder, run the script `range_plot.m`.
