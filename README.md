@@ -42,7 +42,7 @@ Here are a few examples to start quickly.
 4. Configures labels and axes limits.
 5. Saves graph at folder `fig`.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/996fdea0-a326-4cab-bf09-6136d46edff4/Untitled.png)
+![Line plot](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/line_plot.png)
 
 ### Line subplot
 
@@ -53,7 +53,7 @@ Here are a few examples to start quickly.
 5. Link axes between subplots.
 6. Saves graph at folder `fig`.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ca87b57-799e-4db4-97ab-ac06554cb1f3/Untitled.png)
+![Line subplot](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/line_subplot.png)
 
 ### Range angles
 
@@ -63,11 +63,16 @@ Here are a few examples to start quickly.
 4. Configures direction, tick labels, and zero locations.
 5. Saves graph at folder `fig`.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/904ea3eb-0441-4b2f-b786-693e31a7e993/Untitled.png)
+![Range angles](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/range_angles.png)
+
 
 ## Colors
 
 [Colors](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/src/include/get_colors_names.m) were selected from [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=5) (colorblind safe and print-friendly).
+
+![Example colors option 1](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/colors1.png)
+![Example colors option 2](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/colors2.png)
+
 
 # Advanced tips for Matlab
 
