@@ -53,7 +53,7 @@ Here are a few examples to start quickly.
 5. Link axes between subplots.
 6. Saves graph at folder `fig`.
 
-![Line subplot](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/line_subplot.png)
+![Line subplot](images/line_subplot.png)
 
 ### Range angles
 
