@@ -42,7 +42,7 @@ Here are a few examples to start quickly.
 4. Configures labels and axes limits.
 5. Saves graph at folder `fig`.
 
-![Line plot](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/line_plot.png)
+![Line plot](images/line_plot.png)
 
 ### Line subplot
 
@@ -63,15 +63,15 @@ Here are a few examples to start quickly.
 4. Configures direction, tick labels, and zero locations.
 5. Saves graph at folder `fig`.
 
-![Range angles](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/range_angles.png)
+![Range angles](images/range_angles.png)
 
 
 ## Colors
 
 [Colors](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/src/include/get_colors_names.m) were selected from [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=5) (colorblind safe and print-friendly).
 
-![Example colors option 1](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/colors1.png)
-![Example colors option 2](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/images/colors2.png)
+![Example colors option 1](images/colors1.png)
+![Example colors option 2](images/colors2.png)
 
 
 # Advanced tips for Matlab
