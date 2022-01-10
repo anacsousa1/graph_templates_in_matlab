@@ -42,7 +42,7 @@ Here are a few examples to start quickly.
 4. Configures labels and axes limits.
 5. Saves graph at folder `fig`.
 
-![Image with an example of a line plot](images/line_plot.png "Image with an example of a line plot")
+![Image with an example of a line plot](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/line_plot.png "Image with an example of a line plot")
 
 ### Line subplot
 
@@ -53,7 +53,7 @@ Here are a few examples to start quickly.
 5. Link axes between subplots.
 6. Saves graph at folder `fig`.
 
-![Image with an example of a line subplot](images/line_subplot.png "Image with an example of a line subplot")
+![Image with an example of a line subplot](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/line_subplot.png "Image with an example of a line subplot")
 
 ### Range angles
 
@@ -63,15 +63,15 @@ Here are a few examples to start quickly.
 4. Configures direction, tick labels, and zero locations.
 5. Saves graph at folder `fig`.
 
-![Image with an example of a range angles plot](images/range_angles.png "Image with an example of a range angles plot")
+![Image with an example of a range angles plot](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/range_angles.png "Image with an example of a range angles plot")
 
 
 ## Colors
 
 [Colors](https://github.com/anacsousa1/graph_templates_in_matlab/blob/master/src/include/get_colors_names.m) were selected from [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=YlGnBu&n=5) (colorblind safe and print-friendly).
 
-![Image with an example of colors option 1](images/colors1.png "Image with an example of colors option 1")
-![Image with an example of colors option 2](images/colors2.png "Image with an example of colors option 2")
+![Image with an example of colors option 1](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/colors1.png "Image with an example of colors option 1")
+![Image with an example of colors option 2](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/colors2.png "Image with an example of colors option 2")
 
 
 # Advanced tips for Matlab
