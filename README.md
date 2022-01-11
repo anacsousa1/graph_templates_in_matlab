@@ -42,7 +42,7 @@ Here are a few examples to start quickly.
 4. Configures labels and axes limits.
 5. Saves graph at folder `fig`.
 
-![Image with an example of a line plot](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/line_plot.png "Image with an example of a line plot")
+![Image with an example of a line plot](https://raw.githubusercontent.com/anacsousa1/graph_templates_in_matlab/master/images/line_plot.png)
 
 ### Line subplot
 
